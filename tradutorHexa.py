@@ -7,7 +7,7 @@ while(tamanho<1 or tamanho>100):
 for i in range(tamanho):
     x = int(input(),base=16)
     while(x<97 or x>122):
-        x= int(input("Valor invalido digite novamente: "),base=16)
+        x= int(input("Valor invalido digite novamente 61 a 79: "),base=16)
     y = chr(x)
     frase[i] = y
 
